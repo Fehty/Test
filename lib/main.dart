@@ -16,40 +16,35 @@ class myAppBar extends StatelessWidget {
 }
 
 
+//class MyBody extends StatelessWidget {
+////  void funck() {
+////
+////    newClass.someMeth();
+////
 
 
-class MyBody extends StatelessWidget {
-//  void funck() {
-//
-//    newClass.someMeth();
-//
-
-
-
-
-
-  @override
-  Widget build(BuildContext context) {
-    return new Center(
-      child: new Column(
-        children: <Widget>[
-          new Text('Hello World!'),
-          new FlatButton(
-            onPressed: () {
-              /* const url = 'https://flutter.su';
-              launch(url); *
-              FirstClass firstClass = FirstClass('Dada');
-              firstClass.hey();
-            },
-            child: new Text('open Site'),
-            color: Colors.red,
-            textColor: Colors.white,
-          )
-        ],
-      ),
-    );
-  }
-}
+//  @override
+//  Widget build(BuildContext context) {
+//    return new Center(
+//      child: new Column(
+//        children: <Widget>[
+//          new Text('Hello World!'),
+//          new FlatButton(
+//            onPressed: () {
+//              /* const url = 'https://flutter.su';
+//              launch(url); *
+//              FirstClass firstClass = FirstClass('Dada');
+//              firstClass.hey();
+//            },
+//            child: new Text('open Site'),
+//            color: Colors.red,
+//            textColor: Colors.white,
+//          )
+//        ],
+//      ),
+//    );
+//  }
+//}
 
 class FirstClass extends JustFor with Mix {
   List<Animal> list = new List<Animal>();
