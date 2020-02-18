@@ -14,7 +14,6 @@ class myAppBar extends StatelessWidget {
     return new AppBar(title: new Text('Flutter.su'));
   }
 }
-
 class MyBody extends StatelessWidget {
 //  void funck() {
 //
